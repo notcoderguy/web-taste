@@ -1,5 +1,6 @@
 {
   "scripts": {
+    "start": "http-server -p 5500",
     "dev": "npm run development",
     "development": "mix",
     "watch": "mix watch",
@@ -15,6 +16,7 @@
     "alpinejs": "^3.7.1",
     "autoprefixer": "^10.4.2",
     "cross-env": "^7.0.3",
+    "http-server": "^14.1.0",
     "laravel-mix": "^6.0.39",
     "postcss": "^8.4.5",
     "postcss-import": "^14.0.2",
