@@ -1,5 +1,4 @@
 import Alpine from 'alpinejs'
-import '@themesberg/flowbite'
 
 window.Alpine = Alpine
  
