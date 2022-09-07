@@ -1,8 +1,8 @@
 module.exports = {
   content: [
-    './public/**/*.{vue,js,ts,jsx,tsx,blade.php,html}',
+    './src/**/*.{vue,js,ts,jsx,tsx,blade.php,html}',
   ],
-  darkMode: false, // or 'media' or 'class'
+  darkMode: 'class', // or 'media'
   theme: {
     extend: {},
   },
