@@ -1,14 +1,12 @@
 # WEB TASTE
 
-Tailwind CSS & Alpine JS Laravel Mix Starter Template
+Tailwind CSS & Alpine JS - Vite Starter Template
 
-We use this as a starter template to quickly develop static HTML pages with :
+We use this as a starter template to quickly develop static mpa HTML pages with :
 
 - TailwindCSS 3.x
-- Laravel Mix 6 (Webpack)
+- Vite 3.x
 - PostCSS
-- PostCSS Nested
-- PostCSS Import
 - Alpine JS
 
 To get started, clone the project and install the dependencies:
@@ -17,34 +15,22 @@ To get started, clone the project and install the dependencies:
 npm install
 ```
 
-After that, start up Laravel Mix:
+After that, fire up vite using:
 
 ```text
 npm run dev
 ```
 
-To watch changes:
+To build final build use:
 
 ```text
-npm run watch
+npm run build
 ```
 
-To start a http server:
+Base Tailwind CSS file is under `src/resources/css/app.css`  
+Root HTML file is under `src/index.html`
 
-```text
-npm start
-```
-
-Base Tailwind CSS file is under `/resources/css/app.css`  
-Root HTML file is under `/public/index.html`
-
-To build a production bundle run:
-
-```text
-npm run prod
-```
-
-After that you will have a ready to deploy at `/public`
+After that you will have a ready build to deploy at `/dist`
 
 ## Contributing
 
