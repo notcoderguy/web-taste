@@ -13,10 +13,10 @@ Features include:
 **Getting Started:**
 
 1. Clone the project 📁
-2. Install dependencies with `npm install` 💻
-3. Start your dev server with `npm run dev` 🚧
-4. Use `npm run build` for production builds 🏗️
-5. Preview your build locally with `npm run preview` 🌐
+2. Install dependencies with `pnpm install` 💻
+3. Start your dev server with `pnpm run dev` 🚧
+4. Use `pnpm run build` for production builds 🏗️
+5. Preview your build locally with `pnpm run preview` 🌐
 
 Locate your main CSS at `src/resources/css/app.css`, and the entry HTML file at `src/index.html`. Your build will be deployment-ready at `/dist`.
 
