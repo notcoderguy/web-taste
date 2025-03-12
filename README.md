@@ -1,25 +1,53 @@
 # 🌟 WEB TASTE
 
-Tailwind CSS & Vite Starter Template 🚀
+A Vite + React + Tailwind CSS + Shadcn + TypeScript Starter Template 🚀
 
-A sleek starter template for swift development of static MPA HTML pages, now with the added flair of DaisyUI for effortless styling. Perfect for crafting responsive websites quickly and with style.
+Welcome to **WEB TASTE**! This project is designed to kickstart your development of modern web applications using the power of React, Tailwind CSS, and Shadcn components, all bundled together with Vite for a lightning-fast development experience.
 
-Features include:
-- 🌈 TailwindCSS
-- ⚡ Vite
-- 🎨 PostCSS
-- 🌺 DaisyUI integration for vibrant theme support
+## Features
+- ⚛️ **React**: A declarative, efficient, and flexible JavaScript library for building user interfaces.
+- 🌈 **Tailwind CSS**: A utility-first CSS framework for rapid UI development.
+- 🌺 **Shadcn**: Pre-built components styled with Tailwind/CSS tailored for your needs.
+- ⚡ **Vite**: A fast next-generation frontend tooling.
+- 📝 **TypeScript**: A superset of JavaScript that adds static types for better scalability and maintainability.
 
-**Getting Started:**
+## Getting Started
 
-1. Clone the project 📁
-2. Install dependencies with `pnpm install` 💻
-3. Start your dev server with `pnpm run dev` 🚧
-4. Use `pnpm run build` for production builds 🏗️
-5. Preview your build locally with `pnpm run preview` 🌐
+### 1. Clone the project
+```bash
+git clone https://github.com/notcoderguy/web-taste.git
+cd web-taste
+```
 
-Locate your main CSS at `src/resources/css/app.css`, and the entry HTML file at `src/index.html`. Your build will be deployment-ready at `/dist`.
+### 2. Install dependencies
+```bash
+pnpm install
+```
 
-**Contributing:**
+### 3. Start your development server
+```bash
+pnpm run dev
+```
+Your application will be running at `http://localhost:5173`.
 
-🤝 Contributions are welcome! Feel free to fork, change, and submit PRs. Let's make the web tastier together!
+### 4. Build for production
+```bash
+pnpm run build
+```
+
+### 5. Preview your build locally
+```bash
+pnpm run preview
+```
+Your build will be ready for deployment in the `/dist` directory.
+
+## File Structure
+- Main CSS: `src/index.css`
+- Entry HTML: `index.html`
+- Main TypeScript file: `src/main.tsx`
+
+## Contributing
+🤝 Contributions are welcome! Feel free to fork, make changes, and submit pull requests. Let's make the web tastier together!
+
+## License
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
